@@ -348,6 +348,7 @@ section.section-show {
 section .container {
 	background: rgba(0, 0, 0, 0.9);
 	padding: 30px;
+	padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -482,6 +483,10 @@ section .container {
 /*--------------------------------------------------------------
 # Languages
 --------------------------------------------------------------*/
+.languages.container {
+	padding-top: 5px;
+}
+
 .languages .icon-box h3 {
 	font-weight: 700;
 	margin: 0;
@@ -498,7 +503,7 @@ section .container {
 
 .languages .icon-box .outline {
 	transition: all 0.3s ease-in-out;
-	height: 200px;
+	height: 100px;
 	display: block;
 	margin: auto;
 	margin-bottom: 30px;
