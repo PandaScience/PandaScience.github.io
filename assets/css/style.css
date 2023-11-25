@@ -631,6 +631,27 @@ section .container {
 	border: 2px solid #18d26e;
 }
 
+.resume li {
+	margin-right: 2ch;
+}
+
+.resume li#learn,
+.resume li#hot {
+	margin-left: 1ch;
+}
+
+.resume li#learn::marker {
+	content: "📗  ";
+}
+
+.resume li#hot::marker {
+	content: "🔥  ";
+}
+
+.resume li#hot {
+	font-weight: 700;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
