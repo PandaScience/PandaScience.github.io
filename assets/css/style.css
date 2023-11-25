@@ -427,6 +427,29 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Badges
+--------------------------------------------------------------*/
+.badge {
+	background: rgba(255, 255, 255, 0.08);
+	transition: all 0.3s ease-in-out;
+}
+
+.badge:hover {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+.badge img {
+	margin: 10px auto;
+	height: 90px;
+	transition: all 0.3s ease-in-out;
+}
+
+.badge img:hover {
+	filter: drop-shadow(16px 16px 20px orange) invert(15%);
+	transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
 # Technologies
 --------------------------------------------------------------*/
 .technologies .icon-box {
