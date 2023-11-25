@@ -605,6 +605,12 @@ section .container {
 	padding-left: 20px;
 }
 
+.resume .resume-item ul li i {
+	display: block;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+
 .resume .resume-item ul li {
 	padding-bottom: 10px;
 }
