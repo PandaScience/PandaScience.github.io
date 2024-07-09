@@ -731,3 +731,31 @@ section .container {
 .services .icon-box:hover p {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Physics
+--------------------------------------------------------------*/
+#license img {
+  margin: 0px;
+  height: 22px;
+  vertical-align: text-bottom;
+}
+
+.physics hr {
+  border-width: 3px;
+}
+
+#physics .container:nth-of-type(n + 2) h2 {
+  margin-top: 20px;
+}
+
+.physics #C6H6 {
+  width: 80%;
+}
+
+.physics #silicon,
+.physics #lattice {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
