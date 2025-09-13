@@ -351,6 +351,16 @@ section .container {
   padding-top: 20px;
 }
 
+section h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-decoration: overline #18d26e 4px;
+}
+
 @media (max-width: 768px) {
   section {
     top: 120px;
@@ -382,23 +392,12 @@ section .container {
   margin: 4px 10px;
 }
 
-.section-title p {
-  margin: 0;
-  margin: -15px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-}
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
 }
 
 .about-me .content ul {
@@ -567,6 +566,10 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume h1 {
+  margin-bottom: 0;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
